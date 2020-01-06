@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-version = File.read(File.expand_path("../RAILS_VERSION", __dir__)).strip
+version = '4.0.0' #File.read(File.expand_path("../RAILS_VERSION", __dir__)).strip
 
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
